@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+a{
+    color: #0e1400;
+}
+.overlay {
+    background-color: rgba(0, 0, 0,0.5);
+    z-index: 0;
+}
+.topbar{
+    padding: 20px 0px;
+}
+.py-120{
+    padding-top: 120px;
+}
+.time p{
+    font-size: 16px;
+    color: #fff;
+}
+.time p span{
+    color: #0e1400;
+}
+.clogo{
+    background-color: #0e1400;
+    margin: -20px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.clogo .cimage{
+    width: 43%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.row .clogo img{
+    width: 100%;
+}
+.sign{
+    display: flex;
+    justify-content: end;
+    font-size: 16px;
+    color: #fff;
+}
+.main-header{
+    padding: 0 !important;
+}
+.main-header{
+    background-color: transparent;
+}
+.main-header .container
+{
+    background-color: #fff;
+}
+.menu li a{
+    color: #0e1400;
+}
+.main-header .btn{
+    margin-right: 15px;
+}
+.main-header .contect{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+}
+.main-header .contect .row{
+    padding: 10px;
+}
+/* CONTECT-US */
+.contect-us{
+    background-image: url('../Image/banner-img-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-position: top;
+}
+.contect-us .logo img{
+    width: 100%;
+}
+.contect-icon{
+    padding: 10px 20px;
+}
+.contect-us .heading{
+    padding-top: 80px;
+    color: #fff;
+}
+.contect-us .heading a{
+    color: #fff;
+}
+.contect-us .row{
+    padding-top: 150px;
+}
+.contect-us .title p{
+    padding: 0px;
+    font-size: 16px;
+}
+.contect-us .title h2{
+    margin-top: 0px;
+    font-size: 28px;
+}
+.contect-us h2{
+    font-size: 50px;
+    font-family: 'Quicksand';
+}
+.contect-us .help,.query{
+    row-gap: 16px;
+    padding: 30px;
+}
+.contect-us .help .con{
+    padding: 8px 24px;
+    border: 1px solid #dee2e6;
+}
+.contect-us .help .con .content{
+    color: var(--grey);
+}
+.contect-us .help .con .icon{
+    color: var(--main-color);
+    font-size: 24px;
+    padding-right: 15px;
+}
+.query form{
+    padding: 30px;
+    row-gap: 16px;
+    background-color: rgba(128, 128, 128, 0.048);
+}
+.contect-us .query input,textarea{
+    outline: none;
+    border: 1px solid #dee2e6;
+    padding: 14px 24px;
+}
