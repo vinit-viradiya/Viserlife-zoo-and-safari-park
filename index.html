@@ -35,6 +35,9 @@
 <!-- Min media -->
     <link rel="stylesheet" href="assets/css/min-media.css" type="text/css"/>
 </head>
+<div class="loader-wrapper">
+	<span class="loader"></span>
+</div>
 <!-- back to top button -->
     <div class="back-top">
         <a href="#top"><i class="fa-solid fa-angles-up"></i></a>
@@ -1012,7 +1015,7 @@
     <script src="assets/js/jquery-ui.min.js" type="text/javascript"></script>
     <script>
         $(window).on("load",function(){
-			$(".loader").delay(3500).fadeOut(1000);
+			$(".loader").fadeOut("slow");
 		});
         $(window).scroll(function(){
             if ($(this).scrollTop() > 500 ) { 
